@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PayFit' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+	pod 'Firebase/Core'
+	pod 'Firebase/Auth'
+
+	pod 'FirebaseUI/Auth'
+	pod 'FirebaseUI/Email'
+	pod 'FirebaseUI/Google'
+
+	pod 'Firebase/Database'
+	pod 'CodableFirebase'
+	pod 'Firebase/Functions'
+	pod 'SwiftyGif'
+	pod 'Alamofire', '~> 5.0.0-rc.3'
+	
+	pod 'Charts'
+	pod 'FSCalendar'
+
+	pod 'Hero'
+	pod 'Eureka'
+	pod 'FMDB'
+	pod 'Kingfisher'
+	pod 'Firebase/Storage'
+	pod 'XLPagerTabStrip'
+	pod 'Parse'
+
+	pod 'Parchment'
+	pod 'PageControls/SnakePageControl'
+
+	pod 'SideMenu'
+
+  # Pods for PayFit
+
+end

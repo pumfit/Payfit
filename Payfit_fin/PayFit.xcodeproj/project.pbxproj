@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AB66AD4584DB0F326CEFDE4 /* Pods_PayFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DE394F637A18055AB744D8 /* Pods_PayFit.framework */; };
+		B880671D23D01FC7006046BF /* back_gra_left-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B880671B23D01FC6006046BF /* back_gra_left-01.png */; };
+		B880671E23D01FC7006046BF /* back_gra_right-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B880671C23D01FC7006046BF /* back_gra_right-01.png */; };
+		B880672323D02ADA006046BF /* navitab_back_88-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B880672123D02ADA006046BF /* navitab_back_88-01.png */; };
+		B880672423D02ADA006046BF /* navitab_back_44.png in Resources */ = {isa = PBXBuildFile; fileRef = B880672223D02ADA006046BF /* navitab_back_44.png */; };
+		B880672623D02E67006046BF /* GradientForBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B880672523D02E67006046BF /* GradientForBarController.swift */; };
+		B880672823D05353006046BF /* FUIEmailAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B880672723D05353006046BF /* FUIEmailAuth2.swift */; };
+		B880672B23D069FE006046BF /* PayWriteAppName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B880672A23D069FE006046BF /* PayWriteAppName.swift */; };
+		B880672D23D06C9F006046BF /* PayWritePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B880672C23D06C9F006046BF /* PayWritePrice.swift */; };
+		B884ED9A23C708780078258E /* PayWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B884ED9923C708780078258E /* PayWriteViewController.swift */; };
+		B884EDA123C72EFA0078258E /* NanumSquareRoundEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B884ED9D23C72EFA0078258E /* NanumSquareRoundEB.ttf */; };
+		B884EDA223C72EFA0078258E /* NanumSquareRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B884ED9E23C72EFA0078258E /* NanumSquareRegular.ttf */; };
+		B884EDA323C72EFA0078258E /* NanumSquareRoundB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B884ED9F23C72EFA0078258E /* NanumSquareRoundB.ttf */; };
+		B884EDA423C72EFA0078258E /* NanumSquareRoundL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B884EDA023C72EFA0078258E /* NanumSquareRoundL.ttf */; };
+		B889B7C223CF025F001F3F26 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889B7C123CF025F001F3F26 /* SettingViewController.swift */; };
+		B889B7C523CF10C4001F3F26 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889B7C423CF10C4001F3F26 /* SignupViewController.swift */; };
+		B889B7C723CF1CDB001F3F26 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889B7C623CF1CDB001F3F26 /* LoginViewController.swift */; };
+		B896AFD823D1481C00844A6D /* nolist_icon_gif_gr.gif in Resources */ = {isa = PBXBuildFile; fileRef = B896AFD723D1481B00844A6D /* nolist_icon_gif_gr.gif */; };
+		B896AFDA23D150BB00844A6D /* appicon_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = B896AFD923D150BB00844A6D /* appicon_profile.png */; };
+		B896AFDF23D18E9500844A6D /* NaviBarfirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896AFDE23D18E9500844A6D /* NaviBarfirstController.swift */; };
+		B896AFE123D18EDA00844A6D /* NaviBarSecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896AFE023D18EDA00844A6D /* NaviBarSecondController.swift */; };
+		B896AFE323D18F9C00844A6D /* NaviBarThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896AFE223D18F9C00844A6D /* NaviBarThirdController.swift */; };
+		B896AFE523D190A500844A6D /* NaviBarFourthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896AFE423D190A500844A6D /* NaviBarFourthController.swift */; };
+		B896AFE923D191D900844A6D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896AFE823D191D900844A6D /* TabBarController.swift */; };
+		B896AFED23D1CA1200844A6D /* savebutton_44x200-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B896AFEA23D1CA1200844A6D /* savebutton_44x200-01.png */; };
+		B896AFEE23D1CA1200844A6D /* logoutbutton_44x200-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B896AFEB23D1CA1200844A6D /* logoutbutton_44x200-01.png */; };
+		B896AFEF23D1CA1200844A6D /* delete_200x44-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B896AFEC23D1CA1200844A6D /* delete_200x44-01.png */; };
+		B896AFF123D1CC7400844A6D /* okbutton_200x44-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B896AFF023D1CC7400844A6D /* okbutton_200x44-01.png */; };
+		B896AFF323D1CE9200844A6D /* listaddbutton_375x110-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B896AFF223D1CE9200844A6D /* listaddbutton_375x110-01.png */; };
+		B896AFF523D1CF8E00844A6D /* turnMylistbutton_44x220.png in Resources */ = {isa = PBXBuildFile; fileRef = B896AFF423D1CF8800844A6D /* turnMylistbutton_44x220.png */; };
+		B896AFF723D1D02900844A6D /* TotalcontainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896AFF623D1D02900844A6D /* TotalcontainerViewController.swift */; };
+		B89A546423D3264500CD9A5F /* payWriteAppTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A546323D3264500CD9A5F /* payWriteAppTag.swift */; };
+		B89A546623D34BBE00CD9A5F /* hambargarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A546523D34BBE00CD9A5F /* hambargarViewController.swift */; };
+		B8A7BFAB23CC229B00B75BDC /* TotalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A7BFAA23CC229B00B75BDC /* TotalViewController.swift */; };
+		B8CE531923C4431C008C0DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE531823C4431C008C0DDA /* AppDelegate.swift */; };
+		B8CE531B23C4431C008C0DDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE531A23C4431C008C0DDA /* SceneDelegate.swift */; };
+		B8CE531D23C4431C008C0DDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE531C23C4431C008C0DDA /* ViewController.swift */; };
+		B8CE532023C4431C008C0DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CE531E23C4431C008C0DDA /* Main.storyboard */; };
+		B8CE532223C4431E008C0DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CE532123C4431E008C0DDA /* Assets.xcassets */; };
+		B8CE532523C4431E008C0DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CE532323C4431E008C0DDA /* LaunchScreen.storyboard */; };
+		B8CE532D23C4442E008C0DDA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8CE532C23C4442E008C0DDA /* GoogleService-Info.plist */; };
+		B8CE533023C4453A008C0DDA /* KakaoCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE532E23C4453A008C0DDA /* KakaoCommon.framework */; };
+		B8CE533123C4453A008C0DDA /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CE532F23C4453A008C0DDA /* KakaoOpenSDK.framework */; };
+		B8CE533623C44CFA008C0DDA /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE533523C44CFA008C0DDA /* DataStructures.swift */; };
+		B8CE533D23C45C2A008C0DDA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE533C23C45C2A008C0DDA /* User.swift */; };
+		B8CE533F23C45E69008C0DDA /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE533E23C45E69008C0DDA /* GraphViewController.swift */; };
+		B8CE534323C462E3008C0DDA /* FUIKakaoAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE534223C462E3008C0DDA /* FUIKakaoAuth.swift */; };
+		B8CE534523C46453008C0DDA /* customAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE534423C46453008C0DDA /* customAuthViewController.swift */; };
+		B8D13BC623C84A8E0049B73D /* ImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D13BC423C84A8E0049B73D /* ImageRow.swift */; };
+		B8D13BC723C84A8E0049B73D /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D13BC523C84A8E0049B73D /* ImagePickerController.swift */; };
+		B8D13BCD23C84BC60049B73D /* PayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D13BCC23C84BC60049B73D /* PayListViewController.swift */; };
+		B8D13BD123C861030049B73D /* PayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D13BD023C861030049B73D /* PayDetailViewController.swift */; };
+		B8E2121823D5CAB90064179B /* payfitgif_AP.gif in Resources */ = {isa = PBXBuildFile; fileRef = B8E2121723D5CAB90064179B /* payfitgif_AP.gif */; };
+		B8E2121A23D5DBC30064179B /* mini_list_background_200x340.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E2121923D5DBC30064179B /* mini_list_background_200x340.png */; };
+		B8E712B423CD6DF900A8C7CD /* MyPagerTabStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E712B323CD6DF900A8C7CD /* MyPagerTabStrip.swift */; };
+		B8E712B923CD6F5500A8C7CD /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E712B823CD6F5500A8C7CD /* CalenderViewController.swift */; };
+		B8E712C323CDC1A600A8C7CD /* PayStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E712C223CDC1A600A8C7CD /* PayStructure.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F8E28D0D0C4A9AEBB00EAE2 /* Pods-PayFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFit.release.xcconfig"; path = "Target Support Files/Pods-PayFit/Pods-PayFit.release.xcconfig"; sourceTree = "<group>"; };
+		74DE394F637A18055AB744D8 /* Pods_PayFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B880671B23D01FC6006046BF /* back_gra_left-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_gra_left-01.png"; sourceTree = "<group>"; };
+		B880671C23D01FC7006046BF /* back_gra_right-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_gra_right-01.png"; sourceTree = "<group>"; };
+		B880672123D02ADA006046BF /* navitab_back_88-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navitab_back_88-01.png"; sourceTree = "<group>"; };
+		B880672223D02ADA006046BF /* navitab_back_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navitab_back_44.png; sourceTree = "<group>"; };
+		B880672523D02E67006046BF /* GradientForBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientForBarController.swift; sourceTree = "<group>"; };
+		B880672723D05353006046BF /* FUIEmailAuth2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIEmailAuth2.swift; sourceTree = "<group>"; };
+		B880672A23D069FE006046BF /* PayWriteAppName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWriteAppName.swift; sourceTree = "<group>"; };
+		B880672C23D06C9F006046BF /* PayWritePrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWritePrice.swift; sourceTree = "<group>"; };
+		B884ED9923C708780078258E /* PayWriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PayWriteViewController.swift; path = ../PayWriteViewController.swift; sourceTree = "<group>"; };
+		B884ED9D23C72EFA0078258E /* NanumSquareRoundEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundEB.ttf; sourceTree = "<group>"; };
+		B884ED9E23C72EFA0078258E /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRegular.ttf; sourceTree = "<group>"; };
+		B884ED9F23C72EFA0078258E /* NanumSquareRoundB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundB.ttf; sourceTree = "<group>"; };
+		B884EDA023C72EFA0078258E /* NanumSquareRoundL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundL.ttf; sourceTree = "<group>"; };
+		B889B7C123CF025F001F3F26 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B889B7C423CF10C4001F3F26 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		B889B7C623CF1CDB001F3F26 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B896AFD723D1481B00844A6D /* nolist_icon_gif_gr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nolist_icon_gif_gr.gif; sourceTree = "<group>"; };
+		B896AFD923D150BB00844A6D /* appicon_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon_profile.png; sourceTree = "<group>"; };
+		B896AFDE23D18E9500844A6D /* NaviBarfirstController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviBarfirstController.swift; sourceTree = "<group>"; };
+		B896AFE023D18EDA00844A6D /* NaviBarSecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviBarSecondController.swift; sourceTree = "<group>"; };
+		B896AFE223D18F9C00844A6D /* NaviBarThirdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviBarThirdController.swift; sourceTree = "<group>"; };
+		B896AFE423D190A500844A6D /* NaviBarFourthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviBarFourthController.swift; sourceTree = "<group>"; };
+		B896AFE823D191D900844A6D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B896AFEA23D1CA1200844A6D /* savebutton_44x200-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "savebutton_44x200-01.png"; sourceTree = "<group>"; };
+		B896AFEB23D1CA1200844A6D /* logoutbutton_44x200-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoutbutton_44x200-01.png"; sourceTree = "<group>"; };
+		B896AFEC23D1CA1200844A6D /* delete_200x44-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_200x44-01.png"; sourceTree = "<group>"; };
+		B896AFF023D1CC7400844A6D /* okbutton_200x44-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "okbutton_200x44-01.png"; sourceTree = "<group>"; };
+		B896AFF223D1CE9200844A6D /* listaddbutton_375x110-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "listaddbutton_375x110-01.png"; sourceTree = "<group>"; };
+		B896AFF423D1CF8800844A6D /* turnMylistbutton_44x220.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turnMylistbutton_44x220.png; sourceTree = "<group>"; };
+		B896AFF623D1D02900844A6D /* TotalcontainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalcontainerViewController.swift; sourceTree = "<group>"; };
+		B89A546323D3264500CD9A5F /* payWriteAppTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payWriteAppTag.swift; sourceTree = "<group>"; };
+		B89A546523D34BBE00CD9A5F /* hambargarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hambargarViewController.swift; sourceTree = "<group>"; };
+		B8A7BFAA23CC229B00B75BDC /* TotalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalViewController.swift; sourceTree = "<group>"; };
+		B8CE531523C4431C008C0DDA /* PayFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CE531823C4431C008C0DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8CE531A23C4431C008C0DDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B8CE531C23C4431C008C0DDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8CE531F23C4431C008C0DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8CE532123C4431E008C0DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8CE532423C4431E008C0DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8CE532623C4431E008C0DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CE532C23C4442E008C0DDA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8CE532E23C4453A008C0DDA /* KakaoCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoCommon.framework; sourceTree = "<group>"; };
+		B8CE532F23C4453A008C0DDA /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		B8CE533223C44545008C0DDA /* KakaoOpenSDK-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KakaoOpenSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8CE533523C44CFA008C0DDA /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		B8CE533C23C45C2A008C0DDA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B8CE533E23C45E69008C0DDA /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		B8CE534223C462E3008C0DDA /* FUIKakaoAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUIKakaoAuth.swift; sourceTree = "<group>"; };
+		B8CE534423C46453008C0DDA /* customAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customAuthViewController.swift; sourceTree = "<group>"; };
+		B8D13BC423C84A8E0049B73D /* ImageRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRow.swift; sourceTree = "<group>"; };
+		B8D13BC523C84A8E0049B73D /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		B8D13BCC23C84BC60049B73D /* PayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayListViewController.swift; sourceTree = "<group>"; };
+		B8D13BD023C861030049B73D /* PayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayDetailViewController.swift; sourceTree = "<group>"; };
+		B8E2121723D5CAB90064179B /* payfitgif_AP.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = payfitgif_AP.gif; path = ../../../payfitgif_AP.gif; sourceTree = "<group>"; };
+		B8E2121923D5DBC30064179B /* mini_list_background_200x340.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mini_list_background_200x340.png; sourceTree = "<group>"; };
+		B8E712B323CD6DF900A8C7CD /* MyPagerTabStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPagerTabStrip.swift; sourceTree = "<group>"; };
+		B8E712B823CD6F5500A8C7CD /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		B8E712C223CDC1A600A8C7CD /* PayStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayStructure.swift; sourceTree = "<group>"; };
+		E327B61E77663363A3D7F178 /* Pods-PayFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayFit.debug.xcconfig"; path = "Target Support Files/Pods-PayFit/Pods-PayFit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8CE531223C4431C008C0DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB66AD4584DB0F326CEFDE4 /* Pods_PayFit.framework in Frameworks */,
+				B8CE533023C4453A008C0DDA /* KakaoCommon.framework in Frameworks */,
+				B8CE533123C4453A008C0DDA /* KakaoOpenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A177114DFD80FCA2FDCD78F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE532E23C4453A008C0DDA /* KakaoCommon.framework */,
+				B8CE532F23C4453A008C0DDA /* KakaoOpenSDK.framework */,
+				74DE394F637A18055AB744D8 /* Pods_PayFit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B880672923D069ED006046BF /* PayWrite */ = {
+			isa = PBXGroup;
+			children = (
+				B880672A23D069FE006046BF /* PayWriteAppName.swift */,
+				B880672C23D06C9F006046BF /* PayWritePrice.swift */,
+				B89A546323D3264500CD9A5F /* payWriteAppTag.swift */,
+			);
+			path = PayWrite;
+			sourceTree = "<group>";
+		};
+		B889B7BF23CF0117001F3F26 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				B889B7C123CF025F001F3F26 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		B889B7C023CF01F0001F3F26 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				B8A7BFAA23CC229B00B75BDC /* TotalViewController.swift */,
+				B896AFF623D1D02900844A6D /* TotalcontainerViewController.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		B889B7C323CF1084001F3F26 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B889B7C423CF10C4001F3F26 /* SignupViewController.swift */,
+				B889B7C623CF1CDB001F3F26 /* LoginViewController.swift */,
+				B8CE534223C462E3008C0DDA /* FUIKakaoAuth.swift */,
+				B880672723D05353006046BF /* FUIEmailAuth2.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B896AFDB23D18CA100844A6D /* UISettings */ = {
+			isa = PBXGroup;
+			children = (
+				B896AFDE23D18E9500844A6D /* NaviBarfirstController.swift */,
+				B896AFE423D190A500844A6D /* NaviBarFourthController.swift */,
+				B896AFE023D18EDA00844A6D /* NaviBarSecondController.swift */,
+				B896AFE223D18F9C00844A6D /* NaviBarThirdController.swift */,
+				B896AFE823D191D900844A6D /* TabBarController.swift */,
+			);
+			path = UISettings;
+			sourceTree = "<group>";
+		};
+		B8CE530C23C4431C008C0DDA = {
+			isa = PBXGroup;
+			children = (
+				B8CE531723C4431C008C0DDA /* PayFit */,
+				B8CE531623C4431C008C0DDA /* Products */,
+				C427041B75E8B54DD21C7E1E /* Pods */,
+				6A177114DFD80FCA2FDCD78F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8CE531623C4431C008C0DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE531523C4431C008C0DDA /* PayFit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8CE531723C4431C008C0DDA /* PayFit */ = {
+			isa = PBXGroup;
+			children = (
+				B896AFDB23D18CA100844A6D /* UISettings */,
+				B880672923D069ED006046BF /* PayWrite */,
+				B889B7C323CF1084001F3F26 /* Login */,
+				B8E712B523CD6EA800A8C7CD /* BarPagerStrip */,
+				B8D13BC923C84AB30049B73D /* PayList */,
+				B889B7C023CF01F0001F3F26 /* Analytics */,
+				B889B7BF23CF0117001F3F26 /* Setting */,
+				B8D13BC223C84A460049B73D /* Utilities */,
+				B8CE533723C44FF5008C0DDA /* Resources */,
+				B8CE533223C44545008C0DDA /* KakaoOpenSDK-Bridging-Header.h */,
+				B8CE531823C4431C008C0DDA /* AppDelegate.swift */,
+				B8CE531A23C4431C008C0DDA /* SceneDelegate.swift */,
+				B8CE531C23C4431C008C0DDA /* ViewController.swift */,
+				B8CE531E23C4431C008C0DDA /* Main.storyboard */,
+				B8CE532C23C4442E008C0DDA /* GoogleService-Info.plist */,
+				B8CE532123C4431E008C0DDA /* Assets.xcassets */,
+				B880672523D02E67006046BF /* GradientForBarController.swift */,
+				B8CE532323C4431E008C0DDA /* LaunchScreen.storyboard */,
+				B8CE532623C4431E008C0DDA /* Info.plist */,
+				B8CE533523C44CFA008C0DDA /* DataStructures.swift */,
+				B8CE533C23C45C2A008C0DDA /* User.swift */,
+				B8CE534423C46453008C0DDA /* customAuthViewController.swift */,
+			);
+			path = PayFit;
+			sourceTree = "<group>";
+		};
+		B8CE533723C44FF5008C0DDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B896AFF423D1CF8800844A6D /* turnMylistbutton_44x220.png */,
+				B8E2121723D5CAB90064179B /* payfitgif_AP.gif */,
+				B896AFF223D1CE9200844A6D /* listaddbutton_375x110-01.png */,
+				B896AFF023D1CC7400844A6D /* okbutton_200x44-01.png */,
+				B8E2121923D5DBC30064179B /* mini_list_background_200x340.png */,
+				B896AFEC23D1CA1200844A6D /* delete_200x44-01.png */,
+				B896AFEB23D1CA1200844A6D /* logoutbutton_44x200-01.png */,
+				B896AFEA23D1CA1200844A6D /* savebutton_44x200-01.png */,
+				B896AFD923D150BB00844A6D /* appicon_profile.png */,
+				B896AFD723D1481B00844A6D /* nolist_icon_gif_gr.gif */,
+				B880672223D02ADA006046BF /* navitab_back_44.png */,
+				B880672123D02ADA006046BF /* navitab_back_88-01.png */,
+				B880671B23D01FC6006046BF /* back_gra_left-01.png */,
+				B880671C23D01FC7006046BF /* back_gra_right-01.png */,
+				B884ED9E23C72EFA0078258E /* NanumSquareRegular.ttf */,
+				B884ED9F23C72EFA0078258E /* NanumSquareRoundB.ttf */,
+				B884ED9D23C72EFA0078258E /* NanumSquareRoundEB.ttf */,
+				B884EDA023C72EFA0078258E /* NanumSquareRoundL.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B8D13BC223C84A460049B73D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B8D13BC323C84A6B0049B73D /* ImageRow */,
+				B8E712C223CDC1A600A8C7CD /* PayStructure.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B8D13BC323C84A6B0049B73D /* ImageRow */ = {
+			isa = PBXGroup;
+			children = (
+				B8D13BC523C84A8E0049B73D /* ImagePickerController.swift */,
+				B8D13BC423C84A8E0049B73D /* ImageRow.swift */,
+			);
+			path = ImageRow;
+			sourceTree = "<group>";
+		};
+		B8D13BC923C84AB30049B73D /* PayList */ = {
+			isa = PBXGroup;
+			children = (
+				B8D13BCC23C84BC60049B73D /* PayListViewController.swift */,
+				B8D13BD023C861030049B73D /* PayDetailViewController.swift */,
+				B884ED9923C708780078258E /* PayWriteViewController.swift */,
+			);
+			path = PayList;
+			sourceTree = "<group>";
+		};
+		B8E712B523CD6EA800A8C7CD /* BarPagerStrip */ = {
+			isa = PBXGroup;
+			children = (
+				B8E712B323CD6DF900A8C7CD /* MyPagerTabStrip.swift */,
+				B8CE533E23C45E69008C0DDA /* GraphViewController.swift */,
+				B8E712B823CD6F5500A8C7CD /* CalenderViewController.swift */,
+				B89A546523D34BBE00CD9A5F /* hambargarViewController.swift */,
+			);
+			path = BarPagerStrip;
+			sourceTree = "<group>";
+		};
+		C427041B75E8B54DD21C7E1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E327B61E77663363A3D7F178 /* Pods-PayFit.debug.xcconfig */,
+				2F8E28D0D0C4A9AEBB00EAE2 /* Pods-PayFit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8CE531423C4431C008C0DDA /* PayFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CE532923C4431E008C0DDA /* Build configuration list for PBXNativeTarget "PayFit" */;
+			buildPhases = (
+				2AA536147661DE60DC43C4CB /* [CP] Check Pods Manifest.lock */,
+				B8CE531123C4431C008C0DDA /* Sources */,
+				B8CE531223C4431C008C0DDA /* Frameworks */,
+				B8CE531323C4431C008C0DDA /* Resources */,
+				A290BCFC19380A070137AE0F /* [CP] Embed Pods Frameworks */,
+				0714A32E11DF599EEE996F83 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayFit;
+			productName = PayFit;
+			productReference = B8CE531523C4431C008C0DDA /* PayFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8CE530D23C4431C008C0DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = swuad_19;
+				TargetAttributes = {
+					B8CE531423C4431C008C0DDA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = B8CE531023C4431C008C0DDA /* Build configuration list for PBXProject "PayFit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8CE530C23C4431C008C0DDA;
+			productRefGroup = B8CE531623C4431C008C0DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8CE531423C4431C008C0DDA /* PayFit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8CE531323C4431C008C0DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E2121823D5CAB90064179B /* payfitgif_AP.gif in Resources */,
+				B896AFF523D1CF8E00844A6D /* turnMylistbutton_44x220.png in Resources */,
+				B8CE532523C4431E008C0DDA /* LaunchScreen.storyboard in Resources */,
+				B896AFF123D1CC7400844A6D /* okbutton_200x44-01.png in Resources */,
+				B884EDA123C72EFA0078258E /* NanumSquareRoundEB.ttf in Resources */,
+				B8CE532D23C4442E008C0DDA /* GoogleService-Info.plist in Resources */,
+				B896AFEE23D1CA1200844A6D /* logoutbutton_44x200-01.png in Resources */,
+				B896AFDA23D150BB00844A6D /* appicon_profile.png in Resources */,
+				B880672323D02ADA006046BF /* navitab_back_88-01.png in Resources */,
+				B896AFED23D1CA1200844A6D /* savebutton_44x200-01.png in Resources */,
+				B8E2121A23D5DBC30064179B /* mini_list_background_200x340.png in Resources */,
+				B884EDA323C72EFA0078258E /* NanumSquareRoundB.ttf in Resources */,
+				B884EDA223C72EFA0078258E /* NanumSquareRegular.ttf in Resources */,
+				B880671D23D01FC7006046BF /* back_gra_left-01.png in Resources */,
+				B884EDA423C72EFA0078258E /* NanumSquareRoundL.ttf in Resources */,
+				B896AFEF23D1CA1200844A6D /* delete_200x44-01.png in Resources */,
+				B896AFF323D1CE9200844A6D /* listaddbutton_375x110-01.png in Resources */,
+				B8CE532223C4431E008C0DDA /* Assets.xcassets in Resources */,
+				B896AFD823D1481C00844A6D /* nolist_icon_gif_gr.gif in Resources */,
+				B8CE532023C4431C008C0DDA /* Main.storyboard in Resources */,
+				B880672423D02ADA006046BF /* navitab_back_44.png in Resources */,
+				B880671E23D01FC7006046BF /* back_gra_right-01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0714A32E11DF599EEE996F83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayFit/Pods-PayFit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayFit/Pods-PayFit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayFit/Pods-PayFit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AA536147661DE60DC43C4CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayFit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A290BCFC19380A070137AE0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayFit/Pods-PayFit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayFit/Pods-PayFit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayFit/Pods-PayFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8CE531123C4431C008C0DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889B7C723CF1CDB001F3F26 /* LoginViewController.swift in Sources */,
+				B89A546423D3264500CD9A5F /* payWriteAppTag.swift in Sources */,
+				B896AFE523D190A500844A6D /* NaviBarFourthController.swift in Sources */,
+				B8CE531D23C4431C008C0DDA /* ViewController.swift in Sources */,
+				B896AFE923D191D900844A6D /* TabBarController.swift in Sources */,
+				B8CE533623C44CFA008C0DDA /* DataStructures.swift in Sources */,
+				B889B7C523CF10C4001F3F26 /* SignupViewController.swift in Sources */,
+				B8CE533F23C45E69008C0DDA /* GraphViewController.swift in Sources */,
+				B896AFE123D18EDA00844A6D /* NaviBarSecondController.swift in Sources */,
+				B8E712B423CD6DF900A8C7CD /* MyPagerTabStrip.swift in Sources */,
+				B8A7BFAB23CC229B00B75BDC /* TotalViewController.swift in Sources */,
+				B8D13BC623C84A8E0049B73D /* ImageRow.swift in Sources */,
+				B896AFE323D18F9C00844A6D /* NaviBarThirdController.swift in Sources */,
+				B8E712C323CDC1A600A8C7CD /* PayStructure.swift in Sources */,
+				B880672623D02E67006046BF /* GradientForBarController.swift in Sources */,
+				B8CE533D23C45C2A008C0DDA /* User.swift in Sources */,
+				B8D13BD123C861030049B73D /* PayDetailViewController.swift in Sources */,
+				B896AFF723D1D02900844A6D /* TotalcontainerViewController.swift in Sources */,
+				B8CE534323C462E3008C0DDA /* FUIKakaoAuth.swift in Sources */,
+				B8D13BC723C84A8E0049B73D /* ImagePickerController.swift in Sources */,
+				B880672D23D06C9F006046BF /* PayWritePrice.swift in Sources */,
+				B880672B23D069FE006046BF /* PayWriteAppName.swift in Sources */,
+				B89A546623D34BBE00CD9A5F /* hambargarViewController.swift in Sources */,
+				B884ED9A23C708780078258E /* PayWriteViewController.swift in Sources */,
+				B896AFDF23D18E9500844A6D /* NaviBarfirstController.swift in Sources */,
+				B8D13BCD23C84BC60049B73D /* PayListViewController.swift in Sources */,
+				B8CE534523C46453008C0DDA /* customAuthViewController.swift in Sources */,
+				B8CE531923C4431C008C0DDA /* AppDelegate.swift in Sources */,
+				B889B7C223CF025F001F3F26 /* SettingViewController.swift in Sources */,
+				B8E712B923CD6F5500A8C7CD /* CalenderViewController.swift in Sources */,
+				B8CE531B23C4431C008C0DDA /* SceneDelegate.swift in Sources */,
+				B880672823D05353006046BF /* FUIEmailAuth2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8CE531E23C4431C008C0DDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8CE531F23C4431C008C0DDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8CE532323C4431E008C0DDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8CE532423C4431E008C0DDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8CE532723C4431E008C0DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8CE532823C4431E008C0DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8CE532A23C4431E008C0DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E327B61E77663363A3D7F178 /* Pods-PayFit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PayFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swu-payfit.PayFit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8CE532B23C4431E008C0DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8E28D0D0C4A9AEBB00EAE2 /* Pods-PayFit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PayFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swu-payfit.PayFit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8CE531023C4431C008C0DDA /* Build configuration list for PBXProject "PayFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CE532723C4431E008C0DDA /* Debug */,
+				B8CE532823C4431E008C0DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CE532923C4431E008C0DDA /* Build configuration list for PBXNativeTarget "PayFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CE532A23C4431E008C0DDA /* Debug */,
+				B8CE532B23C4431E008C0DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8CE530D23C4431C008C0DDA /* Project object */;
+}
