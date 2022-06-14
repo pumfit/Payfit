@@ -10,6 +10,8 @@
 
 > 점점 많아져가는 당신의 정기결제내역들, 정기결제를 통해 한달에 얼마나 쓰고 있는지 알고 계시나요?
 
+## 실행 영상 
+[![Payfit 영상](https://img.youtube.com/vi/yU5fwpXDPNM/0.jpg)](https://youtu.be/yU5fwpXDPNM)
 
 ## 주요 기능
 
